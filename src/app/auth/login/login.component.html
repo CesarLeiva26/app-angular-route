@@ -1,0 +1,20 @@
+<div class="login-container">
+    <mat-card>
+        <mat-card-content> 
+            <form action="" class="login-form">
+                <h2>Login Usuario</h2>
+                <mat-form-field appearance="outline">
+                    <mat-label>Usuario</mat-label>
+                    <input matInput placeholder="Ingresar Usuario">
+                    <mat-icon matSuffix>account_circle</mat-icon>
+                </mat-form-field>
+                <mat-form-field appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input matInput placeholder="Ingresar Contraseña">
+                    <mat-icon matSuffix>lock</mat-icon>
+                </mat-form-field>   
+                <button mat-raised-button color="primary" (click)="onSubmit()">Ingresar</button>
+            </form>
+        </mat-card-content>
+      </mat-card>    
+</div>
